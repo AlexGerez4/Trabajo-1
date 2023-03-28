@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.login{
+    height: 100vh;
+    width: 50%;
+}
+
+.imagen{
+    background: url(Persona.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+    width: 50%;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: inline-block;
+    padding: 250px 0 0 280px;
+}
+
+form h1{
+    font-size: 40px;
+}
+
+input{
+    margin-top: 10px;
+    height: 30px;
+    width: 360px;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.cajita{
+    height: 15px; 
+    width: 15px;
+    margin-left: 6px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.ForgPass{
+    margin-left: 65px;
+    
+}
+
+p{
+    margin-top: 10px;
+}
+
+.Alinear{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.InicioSesion{
+    height: 45px;
+    width: 380px;
+    margin-top: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.InicioGoogle{
+    height: 45px;
+    width: 380px;
+    margin-top: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color:white;
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.iconoGoogle{
+    width:30px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
